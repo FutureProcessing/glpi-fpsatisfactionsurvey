@@ -1,0 +1,11 @@
+#c_preference,
+#menu_all_button,
+#c_ssmenu2,
+#c_menu ul#menu {
+    display: none;
+}
+
+#page {
+    text-align: center;
+    margin-top: unset;
+}
