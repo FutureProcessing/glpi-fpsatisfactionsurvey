@@ -117,7 +117,7 @@ class PluginFpsatisfactionsurveySurveyLink
       );
 
       $ticket_id = '';
-      while ($ticket = $db_query->next()) {
+      foreach ($db_query as $data => $ticket) {
          $ticket_id = $ticket['ticket_id'];
       }
 

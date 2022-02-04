@@ -43,7 +43,7 @@ if (!$plugin->isInstalled('fpsatisfactionsurvey') || !$plugin->isActivated('fpsa
    Html::displayNotFoundError();
 }
 
-Html::header("FP Satisfaction survey response page");
+Html::simpleHeader("FP Satisfaction survey response page");
 echo Html::css('plugins/fpsatisfactionsurvey/css/responsepage.css');
 $object = new PluginFpsatisfactionsurveyResponsePage();
 echo $object->displayPage();
